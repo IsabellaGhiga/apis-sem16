@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personajes de Rick and Morty</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container my-4">
+      <h1 class="text-center">Directorio de Personajes de Rick and Morty</h1>
+      <div class="col-md-4 mx-auto">
+        <div class="d-flex mb-3">
+          <input
+            type="text"
+            id="searchInput"
+            class="form-control"
+            placeholder="Buscar personajes"
+          />
+          <button id="btnSearch" class="btn btn-primary ms-2">Buscar</button>
+          <button id="btnDelete" class="btn btn-danger ms-2">Borrar</button>
+        </div>
+      </div>
+      <div class="row" id="charactersList"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
